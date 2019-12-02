@@ -2,7 +2,7 @@ FROM nginx:alpine
 
 WORKDIR /usr/share/nginx/html/
 
-COPY ./dist/abricko-manager/ .
+COPY ./dist/mensa-budget/ .
 
 RUN chmod 777 *
 
