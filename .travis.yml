@@ -22,7 +22,7 @@ before_script:
 script:
    - ng build --prod
    - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-   - docker build -t mensaitalia/budget-front:1.0.$TRAVIS_BUILD_NUMBER . && docker push mensaitalia/budget-front:1.0.$TRAVIS_BUILD_NUMBER
+   - docker build -t mensaitalia/budget-front:1.0.$TRAVIS_BUILD_NUMBER -t mensaitalia/budget-front:latest . && docker push mensaitalia/budget-front:1.0.$TRAVIS_BUILD_NUMBER
 
 
 notifications:
