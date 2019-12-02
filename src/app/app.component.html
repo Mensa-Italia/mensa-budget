@@ -1,21 +1,135 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<mat-toolbar color="primary">
+    <span>Mensa - Budget Regionali - {{active_region_name}}</span>
+</mat-toolbar>
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Budget</mat-card-title>
+        <mat-card-subtitle>Qui sotto potrai compilare i dati del budget della tua regione.</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+    <mat-form-field style="width:100%">
+      <input matInput type="email" [(ngModel)]="m.author" placeholder="Email del segretario">  
+    </mat-form-field>
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Conferenze</mat-card-title>
+        <mat-card-subtitle>Budget delle conferenze previste per l'anno</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <button mat-fab (click)="onAddConf()">
+          <mat-icon class="mat-18">add</mat-icon>
+      </button>
+      <mat-list dense>
+          <mat-list-item *ngFor="let conf of m.confs">
+            <mat-form-field>
+              <input matInput type="month" [(ngModel)]="conf.month" placeholder="Mese">  
+            </mat-form-field>
 
-<router-outlet></router-outlet>
+            <mat-form-field>
+              <input matInput type="number" [(ngModel)]="conf.rent" placeholder="Noleggio Sala">  
+            </mat-form-field>
+            <mat-form-field>
+              <input matInput type="number" [(ngModel)]="conf.travel" placeholder="Rimborsi spese conferenzieri">  
+            </mat-form-field>
+            <mat-form-field>
+              <input matInput type="number" [(ngModel)]="conf.materials" placeholder="Materiali/Stampe">  
+            </mat-form-field>
+            <mat-form-field style="width:350px">
+              <input matInput [(ngModel)]="conf.notes" placeholder="Descrizione Evento (se già disponibile)">  
+            </mat-form-field>
+
+          </mat-list-item>
+      </mat-list>
+      
+      Totale Conferenze: {{m.confs.length}} - {{confs_total|currency}}
+      {{m_fairs|json}}
+    </mat-card-content>
+</mat-card>
+
+
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Fiere</mat-card-title>
+        <mat-card-subtitle>Budget previsto per la partecipazione a fiere durante l'anno</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <button mat-fab (click)="onAddFair()">
+          <mat-icon class="mat-18">add</mat-icon>
+      </button>
+      <mat-list dense>
+          <mat-list-item *ngFor="let fair of m.fairs">
+            <mat-form-field>
+              <input matInput type="date" [(ngModel)]="fair.date" placeholder="Data">  
+            </mat-form-field>
+            <mat-form-field>
+              <input matInput [(ngModel)]="fair.name" placeholder="Nome della Fiera">  
+            </mat-form-field>
+            <mat-form-field>
+              <input matInput type="number" [(ngModel)]="fair.travel" placeholder="Rimborsi spese viaggi">  
+            </mat-form-field>
+            <mat-form-field>
+              <input matInput type="number" [(ngModel)]="fair.materials" placeholder="Materiali/Stampe">  
+            </mat-form-field>
+            <mat-form-field>
+              <input matInput type="number" [(ngModel)]="fair.costs" placeholder="Costi di partecipazione">  
+            </mat-form-field>
+            <mat-form-field style="width:350px">
+              <input matInput  [(ngModel)]="fair.notes" placeholder="Descrizione Evento">  
+            </mat-form-field>
+
+          </mat-list-item>
+      </mat-list>
+      Totale Fiere: {{m.fairs.length}} - {{fairs_total|currency}}
+      {{m_fairs|json}}
+    </mat-card-content>
+</mat-card>
+
+
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Brain</mat-card-title>
+        <mat-card-subtitle>Budget previsto per l'organizzazione del Brain nelle varie province della regione</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <button mat-fab (click)="onAddBrain()">
+          <mat-icon class="mat-18">add</mat-icon>
+      </button>
+      <mat-list dense>
+          <mat-list-item *ngFor="let brain of m.brain">
+            <mat-form-field>
+              <mat-label>Provincia</mat-label>
+              <mat-select [(ngModel)]="brain.province">              
+                <mat-option *ngFor="let province of provinces" [value]="province.name">{{province.name}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+              <input matInput type="number" [(ngModel)]="brain.rent" placeholder="Noleggio sala">  
+            </mat-form-field>
+          </mat-list-item>
+      </mat-list>
+      {{m_fairs|json}}
+    </mat-card-content>
+</mat-card>
+
+
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Test</mat-card-title>
+        <mat-card-subtitle>Budget test e modalità di gestione</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+    
+            <mat-form-field style="width:400px">
+              <textarea matInput [(ngModel)]="m.tests_note" placeholder="Modalità di gestione dei test"> </textarea> 
+            </mat-form-field>
+            <br>
+            <mat-form-field style="width:400px">
+              <input matInput type="number" [(ngModel)]="m.tests" placeholder="Noleggio sala">  
+            </mat-form-field>
+        </mat-card-content>
+      </mat-card>
+    </mat-card-content>
+    <mat-card-actions align="start">
+        <button mat-button mat-button-primary (click)="sendData()">Invia Budget</button>
+    </mat-card-actions>
+</mat-card>

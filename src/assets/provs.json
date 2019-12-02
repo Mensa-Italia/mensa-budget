@@ -1,0 +1,517 @@
+[
+  { "COD_REG": "01.011", "DEN_REG": "PIEMONTE", "DEN_UTS": "Torino" },
+  { "COD_REG": "01.011", "DEN_REG": "PIEMONTE", "DEN_UTS": "Vercelli" },
+  { "COD_REG": "01.011", "DEN_REG": "PIEMONTE", "DEN_UTS": "Novara" },
+  { "COD_REG": "01.011", "DEN_REG": "PIEMONTE", "DEN_UTS": "Cuneo" },
+  { "COD_REG": "01.011", "DEN_REG": "PIEMONTE", "DEN_UTS": "Asti" },
+  { "COD_REG": "01.011", "DEN_REG": "PIEMONTE", "DEN_UTS": "Alessandria" },
+  { "COD_REG": "01.011", "DEN_REG": "PIEMONTE", "DEN_UTS": "Biella" },
+  { "COD_REG": "01.011", "DEN_REG": "PIEMONTE", "DEN_UTS": "Verbano-Cusio-Ossola" },
+  { "COD_REG": "01.011", "DEN_REG": "VALLE D'AOSTA/VALLÉE D'AOSTE", "DEN_UTS": "Valle d'Aosta/Vallée d'Aoste" },
+  { "COD_REG": "01.001", "DEN_REG": "LOMBARDIA", "DEN_UTS": "Varese" },
+  {
+    "COD_REG": "01.001",
+    "DEN_REG": "LOMBARDIA",
+    "DEN_UTS": "Como"
+  },
+  {
+    "COD_REG": "01.001",
+    "DEN_REG": "LOMBARDIA",
+    "DEN_UTS": "Sondrio"
+  },
+  {
+    "COD_REG": "01.001",
+    "DEN_REG": "LOMBARDIA",
+    "DEN_UTS": "Milano"
+  },
+  {
+    "COD_REG": "01.001",
+    "DEN_REG": "LOMBARDIA",
+    "DEN_UTS": "Bergamo"
+  },
+  {
+    "COD_REG": "01.001",
+    "DEN_REG": "LOMBARDIA",
+    "DEN_UTS": "Brescia"
+  },
+  {
+    "COD_REG": "01.001",
+    "DEN_REG": "LOMBARDIA",
+    "DEN_UTS": "Pavia"
+  },
+  {
+    "COD_REG": "01.001",
+    "DEN_REG": "LOMBARDIA",
+    "DEN_UTS": "Cremona"
+  },
+  {
+    "COD_REG": "01.001",
+    "DEN_REG": "LOMBARDIA",
+    "DEN_UTS": "Mantova"
+  },
+  {
+    "COD_REG": "01.001",
+    "DEN_REG": "LOMBARDIA",
+    "DEN_UTS": "Lecco"
+  },
+  {
+    "COD_REG": "01.001",
+    "DEN_REG": "LOMBARDIA",
+    "DEN_UTS": "Lodi"
+  },
+  {
+    "COD_REG": "01.001",
+    "DEN_REG": "LOMBARDIA",
+    "DEN_UTS": "Monza e della Brianza"
+  },
+  {
+    "COD_REG": "01.004",
+    "DEN_REG": "TRENTINO-ALTO ADIGE/SÜDTIROL",
+    "DEN_UTS": "Bolzano/Bozen"
+  },
+  {
+    "COD_REG": "01.004",
+    "DEN_REG": "TRENTINO-ALTO ADIGE/SÜDTIROL",
+    "DEN_UTS": "Trento"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "VENETO",
+    "DEN_UTS": "Verona"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "VENETO",
+    "DEN_UTS": "Vicenza"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "VENETO",
+    "DEN_UTS": "Belluno"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "VENETO",
+    "DEN_UTS": "Treviso"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "VENETO",
+    "DEN_UTS": "Venezia"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "VENETO",
+    "DEN_UTS": "Padova"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "VENETO",
+    "DEN_UTS": "Rovigo"
+  },
+  {
+    "COD_REG": "01.008",
+    "DEN_REG": "FRIULI-VENEZIA GIULIA",
+    "DEN_UTS": "Udine"
+  },
+  {
+    "COD_REG": "01.008",
+    "DEN_REG": "FRIULI-VENEZIA GIULIA",
+    "DEN_UTS": "Gorizia"
+  },
+  {
+    "COD_REG": "01.008",
+    "DEN_REG": "FRIULI-VENEZIA GIULIA",
+    "DEN_UTS": "Trieste"
+  },
+  {
+    "COD_REG": "01.008",
+    "DEN_REG": "FRIULI-VENEZIA GIULIA",
+    "DEN_UTS": "Pordenone"
+  },
+  {
+    "COD_REG": "01.007",
+    "DEN_REG": "LIGURIA",
+    "DEN_UTS": "Imperia"
+  },
+  {
+    "COD_REG": "01.007",
+    "DEN_REG": "LIGURIA",
+    "DEN_UTS": "Savona"
+  },
+  {
+    "COD_REG": "01.007",
+    "DEN_REG": "LIGURIA",
+    "DEN_UTS": "Genova"
+  },
+  {
+    "COD_REG": "01.007",
+    "DEN_REG": "LIGURIA",
+    "DEN_UTS": "La Spezia"
+  },
+  {
+    "COD_REG": "01.006",
+    "DEN_REG": "EMILIA-ROMAGNA",
+    "DEN_UTS": "Piacenza"
+  },
+  {
+    "COD_REG": "01.006",
+    "DEN_REG": "EMILIA-ROMAGNA",
+    "DEN_UTS": "Parma"
+  },
+  {
+    "COD_REG": "01.006",
+    "DEN_REG": "EMILIA-ROMAGNA",
+    "DEN_UTS": "Reggio nell'Emilia"
+  },
+  {
+    "COD_REG": "01.006",
+    "DEN_REG": "EMILIA-ROMAGNA",
+    "DEN_UTS": "Modena"
+  },
+  {
+    "COD_REG": "01.006",
+    "DEN_REG": "EMILIA-ROMAGNA",
+    "DEN_UTS": "Bologna"
+  },
+  {
+    "COD_REG": "01.006",
+    "DEN_REG": "EMILIA-ROMAGNA",
+    "DEN_UTS": "Ferrara"
+  },
+  {
+    "COD_REG": "01.006",
+    "DEN_REG": "EMILIA-ROMAGNA",
+    "DEN_UTS": "Ravenna"
+  },
+  {
+    "COD_REG": "01.006",
+    "DEN_REG": "EMILIA-ROMAGNA",
+    "DEN_UTS": "Forlì-Cesena"
+  },
+  {
+    "COD_REG": "01.006",
+    "DEN_REG": "EMILIA-ROMAGNA",
+    "DEN_UTS": "Rimini"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "TOSCANA",
+    "DEN_UTS": "Massa-Carrara"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "TOSCANA",
+    "DEN_UTS": "Lucca"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "TOSCANA",
+    "DEN_UTS": "Pistoia"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "TOSCANA",
+    "DEN_UTS": "Firenze"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "TOSCANA",
+    "DEN_UTS": "Livorno"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "TOSCANA",
+    "DEN_UTS": "Pisa"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "TOSCANA",
+    "DEN_UTS": "Arezzo"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "TOSCANA",
+    "DEN_UTS": "Siena"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "TOSCANA",
+    "DEN_UTS": "Grosseto"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "TOSCANA",
+    "DEN_UTS": "Prato"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "UMBRIA",
+    "DEN_UTS": "Perugia"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "UMBRIA",
+    "DEN_UTS": "Terni"
+  },
+  {
+    "COD_REG": "01.005",
+    "DEN_REG": "MARCHE",
+    "DEN_UTS": "Pesaro e Urbino"
+  },
+  {
+    "COD_REG": "01.005",
+    "DEN_REG": "MARCHE",
+    "DEN_UTS": "Ancona"
+  },
+  {
+    "COD_REG": "01.005",
+    "DEN_REG": "MARCHE",
+    "DEN_UTS": "Macerata"
+  },
+  {
+    "COD_REG": "01.005",
+    "DEN_REG": "MARCHE",
+    "DEN_UTS": "Ascoli Piceno"
+  },
+  {
+    "COD_REG": "01.005",
+    "DEN_REG": "MARCHE",
+    "DEN_UTS": "Fermo"
+  },
+  {
+    "COD_REG": "01.002",
+    "DEN_REG": "LAZIO",
+    "DEN_UTS": "Viterbo"
+  },
+  {
+    "COD_REG": "01.002",
+    "DEN_REG": "LAZIO",
+    "DEN_UTS": "Rieti"
+  },
+  {
+    "COD_REG": "01.002",
+    "DEN_REG": "LAZIO",
+    "DEN_UTS": "Roma"
+  },
+  {
+    "COD_REG": "01.002",
+    "DEN_REG": "LAZIO",
+    "DEN_UTS": "Latina"
+  },
+  {
+    "COD_REG": "01.002",
+    "DEN_REG": "LAZIO",
+    "DEN_UTS": "Frosinone"
+  },
+  {
+    "COD_REG": "01.003",
+    "DEN_REG": "ABRUZZO",
+    "DEN_UTS": "L'Aquila"
+  },
+  {
+    "COD_REG": "01.003",
+    "DEN_REG": "ABRUZZO",
+    "DEN_UTS": "Teramo"
+  },
+  {
+    "COD_REG": "01.003",
+    "DEN_REG": "ABRUZZO",
+    "DEN_UTS": "Pescara"
+  },
+  {
+    "COD_REG": "01.003",
+    "DEN_REG": "ABRUZZO",
+    "DEN_UTS": "Chieti"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "MOLISE",
+    "DEN_UTS": "Campobasso"
+  },
+  {
+    "COD_REG": "01.009",
+    "DEN_REG": "MOLISE",
+    "DEN_UTS": "Isernia"
+  },
+  {
+    "COD_REG": "01.004",
+    "DEN_REG": "CAMPANIA",
+    "DEN_UTS": "Caserta"
+  },
+  {
+    "COD_REG": "01.004",
+    "DEN_REG": "CAMPANIA",
+    "DEN_UTS": "Benevento"
+  },
+  {
+    "COD_REG": "01.004",
+    "DEN_REG": "CAMPANIA",
+    "DEN_UTS": "Napoli"
+  },
+  {
+    "COD_REG": "01.004",
+    "DEN_REG": "CAMPANIA",
+    "DEN_UTS": "Avellino"
+  },
+  {
+    "COD_REG": "01.004",
+    "DEN_REG": "CAMPANIA",
+    "DEN_UTS": "Salerno"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "PUGLIA",
+    "DEN_UTS": "Foggia"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "PUGLIA",
+    "DEN_UTS": "Bari"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "PUGLIA",
+    "DEN_UTS": "Taranto"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "PUGLIA",
+    "DEN_UTS": "Brindisi"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "PUGLIA",
+    "DEN_UTS": "Lecce"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "PUGLIA",
+    "DEN_UTS": "Barletta-Andria-Trani"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "BASILICATA",
+    "DEN_UTS": "Potenza"
+  },
+  {
+    "COD_REG": "01.011",
+    "DEN_REG": "BASILICATA",
+    "DEN_UTS": "Matera"
+  },
+  {
+    "COD_REG": "01.018",
+    "DEN_REG": "CALABRIA",
+    "DEN_UTS": "Cosenza"
+  },
+  {
+    "COD_REG": "01.018",
+    "DEN_REG": "CALABRIA",
+    "DEN_UTS": "Catanzaro"
+  },
+  {
+    "COD_REG": "01.018",
+    "DEN_REG": "CALABRIA",
+    "DEN_UTS": "Reggio Calabria"
+  },
+  {
+    "COD_REG": "01.018",
+    "DEN_REG": "CALABRIA",
+    "DEN_UTS": "Crotone"
+  },
+  {
+    "COD_REG": "01.018",
+    "DEN_REG": "CALABRIA",
+    "DEN_UTS": "Vibo Valentia"
+  },
+  {
+    "COD_REG": "01.012",
+    "DEN_REG": "SICILIA",
+    "DEN_UTS": "Trapani"
+  },
+  {
+    "COD_REG": "01.012",
+    "DEN_REG": "SICILIA",
+    "DEN_UTS": "Palermo"
+  },
+  {
+    "COD_REG": "01.013",
+    "DEN_REG": "SICILIA",
+    "DEN_UTS": "Messina"
+  },
+  {
+    "COD_REG": "01.012",
+    "DEN_REG": "SICILIA",
+    "DEN_UTS": "Agrigento"
+  },
+  {
+    "COD_REG": "01.012",
+    "DEN_REG": "SICILIA",
+    "DEN_UTS": "Caltanissetta"
+  },
+  {
+    "COD_REG": "01.012",
+    "DEN_REG": "SICILIA",
+    "DEN_UTS": "Enna"
+  },
+  {
+    "COD_REG": "01.013",
+    "DEN_REG": "SICILIA",
+    "DEN_UTS": "Catania"
+  },
+  {
+    "COD_REG": "01.013",
+    "DEN_REG": "SICILIA",
+    "DEN_UTS": "Ragusa"
+  },
+  {
+    "COD_REG": "01.013",
+    "DEN_REG": "SICILIA",
+    "DEN_UTS": "Siracusa"
+  },
+  {
+    "COD_REG": "01.019",
+    "DEN_REG": "SARDEGNA",
+    "DEN_UTS": "Sassari"
+  },
+  {
+    "COD_REG": "01.019",
+    "DEN_REG": "SARDEGNA",
+    "DEN_UTS": "Nuoro"
+  },
+  {
+    "COD_REG": "01.019",
+    "DEN_REG": "SARDEGNA",
+    "DEN_UTS": "Cagliari"
+  },
+  {
+    "COD_REG": "01.019",
+    "DEN_REG": "SARDEGNA",
+    "DEN_UTS": "Oristano"
+  },
+  {
+    "COD_REG": "01.019",
+    "DEN_REG": "SARDEGNA",
+    "DEN_UTS": "Olbia-Tempio"
+  },
+  {
+    "COD_REG": "01.019",
+    "DEN_REG": "SARDEGNA",
+    "DEN_UTS": "Ogliastra"
+  },
+  {
+    "COD_REG": "01.019",
+    "DEN_REG": "SARDEGNA",
+    "DEN_UTS": "Medio Campidano"
+  },
+  {
+    "COD_REG": "01.019",
+    "DEN_REG": "SARDEGNA",
+    "DEN_UTS": "Carbonia-Iglesias"
+  },
+  {
+    "COD_REG": "01.019",
+    "DEN_REG": "SARDEGNA",
+    "DEN_UTS": "Sud Sardegna"
+  }
+]
