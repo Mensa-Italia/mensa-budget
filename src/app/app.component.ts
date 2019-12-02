@@ -47,7 +47,7 @@ export class AppComponent {
 
 
   title = 'mensa-budget';
-  m: {confs:Conference[], tests?:number, fairs:Fair[], brain:Brain[], tests_note?:string, mail?:string} = {
+  m: {confs:Conference[], tests?:number, fairs:Fair[], brain:Brain[], tests_note?:string, author?:string} = {
     confs: [],    
     fairs:[],
     brain:[],
@@ -113,7 +113,6 @@ export class AppComponent {
 
   sendData(){
     if(confirm('Inviare i dati del budget? non sarà possibile modificarli in seguito.')){
-      this.m.mail = this.mail;
       this.http.post(this.server, JSON.stringify(this.m)).subscribe(data=>{
         alert('grazie per aver caricato il budget');
       })
